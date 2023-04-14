@@ -1,0 +1,25 @@
+table {
+  margin: 0 auto;
+  width: 70%;
+}
+table,
+th,
+td {
+  border-bottom: 1px solid #999;
+  border-collapse: collapse;
+}
+
+tr:first-child {
+  background-color: #27aa6d;
+  color: #fff;
+}
+
+tr:nth-child(odd):not(:first-child) {
+  background-color: #e0e0e0;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
